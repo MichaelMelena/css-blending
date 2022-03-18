@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark light">
+
+  <title>CSS - Blending</title>
+
+  <link href="./css/style.css" rel="stylesheet" />
+  <link href="./css/blend.css" rel="stylesheet" />
+  <link href="./css/blend-showcase.css" rel="stylesheet" />
+
+  <link href="css/dark-mode.css" media="(prefers-color-scheme: dark)" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+  <div class="intro">
+    <h1>Blending modes</h1>
+    <p>
+      Showcase of all individual CSS blending modes.
+    </p>
+  </div>
+
+  <article class="about-article">
+
+    <div>
+      <h2>Setup</h2>
+      <p>
+        We have two different backgrounds to properly show the blend.
+        Blending modes are set via css property <code>mix-blend-mode</code>
+        <br /> <br />
+        The property can contain following values:
+      <ul>
+        <li><code>normal</code></li>
+        <li><code>multiply</code></li>
+        <li><code>screen</code></li>
+        <li><code>overlay</code></li>
+        <li><code>darken</code></li>
+        <li><code>lighten</code></li>
+        <li><code>color-dodge</code></li>
+        <li><code>color-burn</code></li>
+        <li><code>hard-light</code></li>
+        <li><code>soft-light</code></li>
+        <li><code>difference</code></li>
+        <li><code>exclusion</code></li>
+        <li><code>hue</code></li>
+        <li><code>saturation</code></li>
+        <li><code>color</code></li>
+        <li><code>luminosity</code></li>
+      </ul>
+        
+      <br/>
+      You can find additional information at <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode">Mozilla mix-blend-mode</a>
+      </p>
+
+    </div>
+
+    <div class="mode-setup">
+      <div class="mode-container ">
+        <h3>Background</h3>
+        <div class="variations">
+          <div class="container light"></div>
+          <div class="container dark"></div>
+        </div>
+      </div>
+      <div class="mode-container">
+        <h3>RGB Colors</h3>
+        <div class="variations">
+          <div class="container normal color-example">
+            <div class="circle red-example">red</div>
+            <div class="circle green-example">green</div>
+            <div class="circle blue-example">blue</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </article>
+
+  <h2>Modes</h1>
+    <article class="modes-article">
+
+      <!-- Normal -->
+      <div class="mode-container">
+        <h3>Normal</h3>
+        <div class="variations">
+          <div class="container light normal">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark normal">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Multiply -->
+      <div class="mode-container">
+        <h3>Multiply</h3>
+        <div class="variations">
+          <div class="container light multiply">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark multiply">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Screen -->
+      <div class="mode-container">
+        <h3>Screen</h3>
+        <div class="variations">
+          <div class="container light screen">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark screen">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Overlay -->
+      <div class="mode-container">
+        <h3>Overlay</h3>
+        <div class="variations">
+          <div class="container light overlay">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark overlay">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Darken -->
+      <div class="mode-container">
+        <h3>Darken</h3>
+        <div class="variations">
+          <div class="container light darken">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark darken">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Lighten -->
+      <div class="mode-container">
+        <h3>Lighten</h3>
+        <div class="variations">
+          <div class="container light lighten">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark lighten">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Color-dodge -->
+      <div class="mode-container">
+        <h3>Color-dodge</h3>
+        <div class="variations">
+          <div class="container light color-dodge">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark color-dodge">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Color-burn -->
+      <div class="mode-container">
+        <h3>Color-burn</h3>
+        <div class="variations">
+          <div class="container light color-burn">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark color-burn">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Hard-light -->
+      <div class="mode-container">
+        <h3>Hard-light</h3>
+        <div class="variations">
+          <div class="container light hard-light">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark hard-light">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Soft-light -->
+      <div class="mode-container">
+        <h3>Soft-light</h3>
+        <div class="variations">
+          <div class="container light soft-light">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark soft-light">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Difference -->
+      <div class="mode-container">
+        <h3>Difference</h3>
+        <div class="variations">
+          <div class="container light difference">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark difference">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Exclusion -->
+      <div class="mode-container">
+        <h3>Exclusion</h3>
+        <div class="variations">
+          <div class="container light exclusion">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark exclusion">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Hue -->
+      <div class="mode-container">
+        <h3>Hue</h3>
+        <div class="variations">
+          <div class="container light hue">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark hue">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Saturation -->
+      <div class="mode-container">
+        <h3>Saturation</h3>
+        <div class="variations">
+          <div class="container light saturation">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark saturation">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Color -->
+      <div class="mode-container">
+        <h3>Color</h3>
+        <div class="variations">
+          <div class="container light color">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark color">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Luminosity -->
+      <div class="mode-container">
+        <h3>Luminosity</h3>
+        <div class="variations">
+          <div class="container light luminosity">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+          <div class="container dark luminosity">
+            <div class="circle red"></div>
+            <div class="circle green"></div>
+            <div class="circle blue"></div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <script src="./script.js" type="application/javascript"></script>
+</body>
+
+</html>

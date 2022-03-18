@@ -1,0 +1,61 @@
+
+.normal > .circle {
+    mix-blend-mode: normal;
+  }
+  
+  .multiply > .circle {
+    mix-blend-mode: multiply;
+  }
+  
+  .screen > .circle {
+    mix-blend-mode: screen;
+  }
+  
+  .overlay > .circle {
+    mix-blend-mode: overlay;
+  }
+  
+  .darken > .circle {
+    mix-blend-mode: darken;
+  }
+  
+  .lighten > .circle {
+    mix-blend-mode: lighten;
+  }
+  
+  .color-dodge > .circle {
+    mix-blend-mode: color-dodge;
+  }
+  
+  .color-burn > .circle {
+    mix-blend-mode: color-burn;
+  }
+  
+  .hard-light > .circle {
+    mix-blend-mode: hard-light;
+  }
+  .soft-light > .circle {
+    mix-blend-mode: soft-light;
+  }
+  .difference > .circle {
+    mix-blend-mode: difference;
+  }
+  .exclusion > .circle {
+    mix-blend-mode: exclusion;
+  }
+  
+  .hue > .circle {
+    mix-blend-mode: hue;
+  }
+  
+  .saturation > .circle {
+    mix-blend-mode: saturation;
+  }
+  
+  .color > .circle {
+    mix-blend-mode: color;
+  }
+  
+  .luminosity > .circle {
+    mix-blend-mode: luminosity;
+  }

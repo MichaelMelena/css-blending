@@ -1,0 +1,85 @@
+.light {
+  /* background-color: var(--container-bg-light-color); */
+  background: var(--container-gradient-light);
+}
+.dark {
+  /* background-color: var(--container-bg-dark-color); */
+  background: var(--container-gradient-dark);
+}
+
+.mode-container {
+  border: var(--container-border);
+  background-color: var(--container-bg);
+  padding: 10px;
+  border-radius: 1rem;
+  margin: 10px;
+}
+
+.container {
+  width: calc(var(--demo-size) * 2);
+  height: calc(var(--demo-size) * 2);
+  position: relative;
+  border-radius: calc((var(--demo-size) + 1rem));
+}
+
+.mode-container > h3 {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.variations {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  width: var(--demo-size);
+  height: var(--demo-size);
+  border-radius: calc((var(--demo-size) / 2) + 1rem);
+  position: absolute;
+  top: calc(var(--demo-size) / 2);
+}
+
+.red {
+  background: var(--red-color);
+  left: calc(var(--demo-size) / 4);
+}
+.green {
+  background: var(--green-color);
+  left: calc(3 * var(--demo-size) / 4);
+}
+.blue {
+  background: var(--blue-color);
+  left: calc(var(--demo-size) / 2);
+  top: calc(3 * var(--demo-size) / 4);
+}
+
+.mode-setup > .mode-container {
+  max-height: calc(var(--demo-size) * 2.5);
+}
+
+.color-example {
+  text-align: center;
+  line-height: var(--demo-size);
+  text-transform: uppercase;
+  color: #000;
+}
+.red-example {
+  background-color: #f00;
+  top: 0;
+  left: -0.5rem;
+}
+
+.green-example {
+  background-color: #0f0;
+  right: -0.5rem;
+  top: 0;
+}
+.blue-example {
+  background-color: #00f;
+  bottom: 0;
+  top: var(--demo-size);
+  left: calc(var(--demo-size) / 2);
+  color: #fff;
+}
