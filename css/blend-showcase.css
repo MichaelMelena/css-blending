@@ -83,3 +83,17 @@
   left: calc(var(--demo-size) / 2);
   color: #fff;
 }
+
+.info{
+  width: calc(var(--demo-size)*4);
+  display: none;
+  max-height: calc(var(--demo-size)*2);
+  overflow-y: scroll;
+}
+.mode-container:hover  .container{
+  display: none;
+}
+
+.mode-container:hover  .info{
+  display: block;
+}
